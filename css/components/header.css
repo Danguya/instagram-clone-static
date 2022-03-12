@@ -57,3 +57,20 @@
 .header__nav ul li a{
     padding: 8px;
 }
+.header__nav ul li{
+    position: relative;
+}
+.header__nav ul li span{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 18px;
+    height: 18px;
+    background-color: #ed4956;
+    color: #fff;
+    position: absolute;
+    border-radius: 50%;
+    font-size: 12px;
+    top: -8px;
+    right: 0;
+}
