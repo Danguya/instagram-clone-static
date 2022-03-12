@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fff;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #0095f6;
+    font-weight: 600;
+}
+button, input, textarea, body {
+    font-size: 14px;
+    line-height: 18px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 1000px;
+    padding-top: var(--header-height);
+
+
+}
+.main__section{
+    max-width: 975px;
+    height: 1000px;
+    width: 100%;
+
+}
+ article, div, footer, header, main, nav, section {
+    position: relative;
+
+}
+:root{
+    --header-height: 60px;
+}

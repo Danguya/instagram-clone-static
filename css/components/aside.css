@@ -1,0 +1,45 @@
+.aside{
+    max-width: 330px;
+    width: 100%;
+    position: fixed;
+    top: calc(10px + var(--header-height));
+    left: 833px;
+}
+.aside__loggedin{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 12px 0 0;
+}
+.loggedin__details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.loggedin__user {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.loggedin__avatar{
+    max-height: 56px;
+    max-width: 56px;
+}
+.loggedin__avatar img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+.loggedin__details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 8px;
+}
+.loggedin__username{
+    color: #000;
+}
+.loggedin__fullname{
+    color: #8e8e8e;
+}
