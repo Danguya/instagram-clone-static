@@ -5,41 +5,102 @@
     top: calc(10px + var(--header-height));
     left: 833px;
 }
-.aside__loggedin{
+.aside__element{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 24px 12px 0 0;
 }
-.loggedin__details {
+.aside__user__details {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
 }
-.loggedin__user {
+.aside__user {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.loggedin__avatar{
-    max-height: 56px;
-    max-width: 56px;
+.aside__user__avatar{
+    max-height: 32px;
+    max-width: 32px;
 }
-.loggedin__avatar img{
+.aside__user__avatar img{
     height: 100%;
     width: 100%;
     border-radius: 50%;
 }
-.loggedin__details {
+.aside__user__details {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center;
+    align-items: flex-start;
     padding-left: 8px;
 }
-.loggedin__username{
+.aside__user__username{
+    color: #000;
+    font-size: 14px;
+}
+.aside__user__fullname, .aside__user__description{
+    color: #8e8e8e;
+    font-size: 12px;
+
+}
+.aside__user__action{
+    font-size: 12px;
+}
+
+.aside__element__logged .aside__user__fullname{
+    font-size: 14px;
+
+}
+.aside__element__logged .aside__user__avatar{
+    max-height: 56px;
+    max-width: 56px;
+}
+.followers  .aside__user__username:hover{
+    text-decoration: underline;
+
+}
+.followers .aside__element{
+    padding: 12px 12px 0 0;
+}
+.followers .aside__element__header {
+    height: 40px;
+}
+.followers .aside__element__header p{
+    font-weight: 600;
+}
+.followers .aside__element__header a{
     color: #000;
 }
-.loggedin__fullname{
-    color: #8e8e8e;
+.aside footer nav{
+    max-width: 100%;
+    padding: 16px 0 16px 0;
+}
+.aside footer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    color: #c7c7c7;
+
+}
+.aside footer nav ul li{
+    list-style: none;
+    display: block;
+    float: left;
+    margin: 0px 8px 0px 0px;
+}
+.aside footer nav ul li a{
+    color: #c7c7c7;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+    text-transform: none;
+}
+.aside footer p{
+    color: #c7c7c7;
+    font-size: 12px;
+    line-height: 16px;
+
 }

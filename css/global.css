@@ -10,12 +10,14 @@ body{
     -webkit-text-size-adjust: 100%;
     -webkit-font-smoothing: antialiased;
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    color: #8e8e8e;
 }
 
 a{
     text-decoration: none;
     color: #0095f6;
     font-weight: 600;
+    font-size: 12px;
 }
 button, input, textarea, body {
     font-size: 14px;
